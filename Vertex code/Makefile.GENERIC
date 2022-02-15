@@ -1,0 +1,10 @@
+
+OBJS	      = main.o				\
+
+PRINT	      = pr
+
+PROGRAM       = test_program
+
+SRCS	      = 				\
+3DTuring.c
+

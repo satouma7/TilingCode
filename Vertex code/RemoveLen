@@ -1,0 +1,14 @@
+#!/bin/sh
+
+if [ $# -ne 1 ]
+then
+    echo "Please Type 'RemoveLen 1'"
+    exit
+fi
+
+cd ShellBox_${1}
+for x in Len_*
+do
+    mv -f ${x} /tmp/
+done
+cd ../

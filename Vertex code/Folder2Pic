@@ -1,0 +1,17 @@
+#!/bin/sh
+
+if [ $# -ne 1 ]
+then
+    echo "Please Type 'Folder2Pic 1'"
+    exit
+fi
+
+cd `dirname $0`
+mkdir -p OutputPic_${1}
+
+cd ShellBox_${1}
+for x in Len_*
+do
+cp "$x/000000.png" "../OutputPic_${1}/$x.png"
+done
+cd ../

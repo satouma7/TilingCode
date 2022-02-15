@@ -1,0 +1,10 @@
+#!/bin/sh
+
+if [ $# -ne 1 ]
+then
+    echo "Please Type 'DoShellBox 1'"
+    exit
+fi
+cd `dirname $0`
+
+make clean && make && touch a.out && mv ./a.out ~/.Trash/ && cc main_Multi_${1}.c && ./a.out && mv ShellBox ShellBox_${1} && cp ./test_program ShellBox_${1} && cd ShellBox_${1} && ./myshell.sh & wait && cd ..

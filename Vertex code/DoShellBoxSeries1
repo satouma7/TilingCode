@@ -1,0 +1,6 @@
+#!/bin/sh
+
+./DoShellBox 47
+./DoShellBox 48
+./DoShellBox 49
+
