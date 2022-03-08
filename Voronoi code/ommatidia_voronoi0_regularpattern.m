@@ -15,7 +15,7 @@ for t=1:Tmax
     end
     actualYint=Yint*(1+(t-1)*Yex);
     subplot(4,5,t);voronoi(X,Y);axis([0 100 0 100]);axis equal;xticks([]);yticks([]);
-    title(strcat('ƒ¢X=10, ƒ¢Y=',num2str(actualYint), ' :ƒ¢Y/ƒ¢X=', num2str(actualYint/10)));
+    title(strcat('deltaX=10, deltaY=',num2str(actualYint), ' :Y/X=', num2str(actualYint/10)));
     %pause(1);
 end
 
