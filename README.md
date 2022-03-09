@@ -1,7 +1,7 @@
 # TilingCode
 Source codes used in 'Tiling mechanisms of the Drosophila compound eye through geometrical tessellation'. 
 
-In 'Laser ablation tracking' folder, 'ommatidia.m' is a MATLAB script that tracks bristle cells upon laser ablation. 
+In 'Laser ablation tracking' folder, 'ommatidia.m' is a MATLAB script that tracks bristle cell movement upon laser ablation. 
 'ommatidia.fig' is a GUIDE file and should be in the same folder as 'ommatidia.m'. 
 'lsmread.m' is necessary to import ZEISS lsm file. 
 
@@ -16,3 +16,4 @@ See Sheet1 in 'Data.xlsx' for the correspondence table of data labels (XX=1,2,3,
 In 'experimental_database.c', data such as the number of vertices is input, respectively.
 By using the script 'AllCalc.sh', we can obtain accuracies of all Voronoi diagram data as 'EquivalentRate.dat'.
 
+Details of 'Vertex code' will be added soon. 
